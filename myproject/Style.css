@@ -1,0 +1,18 @@
+﻿body {
+}
+.header{
+   width:100%;
+    height:200px;
+    background-color:gray;
+    text-align:center;
+    padding-top:7px;
+    margin-top:7px;
+}
+#h5{
+    border:1px solid;
+    text-align:right;
+    background-color:black;
+    color:white;
+    width:100%;
+}
+
