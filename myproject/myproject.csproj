@@ -74,11 +74,55 @@
     <Content Include="files\font-awesome.css" />
     <Content Include="Gellary.html" />
     <Content Include="history.html" />
+    <Content Include="hospitals\41c4b4e97bf8e7e6167bd8e48eb423b5.jpg" />
+    <Content Include="hospitals\aghakhan.jpg" />
+    <Content Include="hospitals\download %288%29.jpg" />
+    <Content Include="hospitals\images %282%29.jpg" />
+    <Content Include="hospitals\israhospital.jpg" />
+    <Content Include="hospitals\lums.jpg" />
+    <Content Include="hospitals\majeehospitals.jpg" />
     <Content Include="HtmlPage1.html" />
     <Content Include="hyderabad\maphyd.png" />
     <Content Include="index.html" />
     <Content Include="places.html" />
+    <Content Include="places\bombaibakry.jpg" />
+    <Content Include="places\boulevardhotel.jpg" />
+    <Content Include="places\download %281%29.jpg" />
+    <Content Include="places\download %2810%29.jpg" />
+    <Content Include="places\download %2811%29.jpg" />
+    <Content Include="places\download %2812%29.jpg" />
+    <Content Include="places\download %2813%29.jpg" />
+    <Content Include="places\download %2814%29.jpg" />
+    <Content Include="places\download %2815%29.jpg" />
+    <Content Include="places\download %282%29.jpg" />
+    <Content Include="places\download %283%29.jpg" />
+    <Content Include="places\download %284%29.jpg" />
+    <Content Include="places\download %285%29.jpg" />
+    <Content Include="places\download %286%29.jpg" />
+    <Content Include="places\download %287%29.jpg" />
+    <Content Include="places\download %289%29.jpg" />
+    <Content Include="places\download.jpg" />
+    <Content Include="places\gulmohar.jpg" />
+    <Content Include="places\hydprofile.jpg" />
+    <Content Include="places\images %281%29.jpg" />
+    <Content Include="places\images %2810%29.jpg" />
+    <Content Include="places\images %2811%29.jpg" />
+    <Content Include="places\images %2812%29.jpg" />
+    <Content Include="places\images %2813%29.jpg" />
+    <Content Include="places\images %283%29.jpg" />
+    <Content Include="places\images %285%29.jpg" />
+    <Content Include="places\images %286%29.jpg" />
+    <Content Include="places\images %287%29.jpg" />
+    <Content Include="places\images %289%29.jpg" />
+    <Content Include="places\images.jpg" />
+    <Content Include="places\ranibag.jpg" />
+    <Content Include="places\station.jpg" />
+    <Content Include="places\streetlibrary.jpg" />
+    <Content Include="practice.html" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-3.5.1.min.js" />
     <Content Include="Style.css" />
+    <Content Include="styles\bootstrap.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="places\miran-tombs-hyderabad-city-pakistan-260nw-1540661813.webp" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -93,9 +138,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="places\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

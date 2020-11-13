@@ -10,39 +10,62 @@
     <title></title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="header">
-                <header>
-                    <h2>header section</h2>
-                </header>
+    <div class="container-fluid">
+        <div class="row jumbotron" style="margin-bottom:0;padding:0;padding-top:7px;">
+            <div class="carousel slide" data-ride="carousel" id="jumbo">
+                <ul class="carousel-indicators">
+                    <li data-target="#jumbo" data-slide-to="0" class="active"></li>
+                    <li data-target="#jumbo" data-slide-to="1"></li>
+                    <li data-target="#jumbo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="hospitals/41c4b4e97bf8e7e6167bd8e48eb423b5.jpg" class="img-fluid img-thumbnail" style="height:250px;width:1500px" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="hospitals/israhospital.jpg" alt="Agha Khan Hospital" class="img-fluid img-thumbnail" style="height:250px;width:1500px" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="hospitals/images (2).jpg" alt="Agha Khan Hospital" class="img-fluid img-thumbnail" style="height:250px;width:1500px;" />
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
-            <nav class="navbar bg-dark navbar-dark navbar-expand-sm" style="width:1150px">
+            <nav class="navbar bg-dark navbar-dark navbar-expand-sm" style="width:1500px">
                 <a href="#" class="navbar-brand">My Website</a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="index.html" class="nav-link ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="Gellary.html" class="nav-link">Gellary</a>
+                        <a href="history.html" class="nav-link ">History</a>
                     </li>
                     <li class="nav-item">
-                        <a href="history.html" class="nav-link">History</a>
+                        <a href="places.html" class="nav-link active">Places</a>
                     </li>
                     <li class="nav-item">
-                        <a href="places.html" class="nav-link">Places</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contactus.html" class="nav-link">Contact</a>
+                        <a href="contactus.html" class="nav-link ">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div class="row">
-            <h5 id="h5">&copy;reserved/2020/saif</h5>
+
+        <div class="row" style="height:500px">
+            <div class="col-2" style="border:1px solid black;padding-top:7px;height:500px">
+                <h2>left</h2>
+            </div>
+
+            <div class="col-10" style="border:1px solid black;padding-top:7px;height:500px">
+           
         </div>
+            </div>
+        <div class="row">
+                <h5 id="h5">&copy;reserved/2020/saif</h5>
+        </div>
+
     </div>
+    <script src="scripts/jquery-3.5.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
 </body>
 </html>
