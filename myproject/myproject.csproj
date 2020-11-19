@@ -82,7 +82,9 @@
     <Content Include="hospitals\lums.jpg" />
     <Content Include="hospitals\majeehospitals.jpg" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="hyderabad\effil.jpeg" />
     <Content Include="hyderabad\maphyd.png" />
+    <Content Include="hyderabad\profile.jpg" />
     <Content Include="index.html" />
     <Content Include="places.html" />
     <Content Include="places\bombaibakry.jpg" />

@@ -1,16 +1,25 @@
 ﻿
 #h5{
     border:1px solid;
-    text-align:right;
+    text-align:center;
     background-color:black;
     color:white;
-    
+    width:1000%;
 }
 
 .nav-link:hover{
     background:Blue;
 }
-/*.nav-link:visited
-{
-    background:green;
-}*/
+.imags{
+    width:70px;
+    height:150px;
+    //padding:3px;
+    //margin:0;
+}
+.frmtext{
+    color:white;
+}
+.crouslimg{
+    width:100px;
+    line-height:300px;
+}
